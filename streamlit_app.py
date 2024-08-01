@@ -13,6 +13,9 @@ import seaborn as sns
 
 # Set Streamlit page config
 st.set_page_config(page_title="Time Series Analysis App", layout="wide")
+# Title
+st.title("Time Series Analysis App")
+st.markdown("An application by Sampreeth Shetty to fit numerous time series models on index or stock data")
 
 # Streamlit input fields
 st.title("Time Series Analysis App")
